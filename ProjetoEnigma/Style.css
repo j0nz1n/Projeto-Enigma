@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(27, 27, 27);
+}
+
+#projeto{
+    text-align: left;
+    font-family: 'Padyakke Expanded One', cursive;
+    color: #f0f8ff;
+    cursor: pointer;
+    margin-left: 1%;
+}
+
+#enigma{
+    font-family: 'Courgette', cursive;
+    margin-top: -3.2%;
+    margin-left: 7%;
+    color: aliceblue;
+    text-shadow: 7px 8px 7px rgb(66, 24, 94);
+    cursor: pointer;
+}
+
+
+#header{
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(39, 39, 39);
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 4px inset rgb(66, 24, 94);
+
+}
+
+#listaheader{
+    display: flex;
+    list-style-type: none;
+    position: relative;
+}
+
+
+#elementoslista1{
+    display: flex;
+    position: relative;
+    letter-spacing: 1px;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+    padding-left: 800px;
+    text-decoration: none;
+}
+#elementoslista2{
+    display: flex;
+    position: relative;
+    letter-spacing: 1px;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+#conteudo{
+    text-align: justify;
+    font-family: 'Courgette', cursive;
+    color:aliceblue;
+    background-color: rgb(39, 39, 39);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    padding-top: 0px;
+    border: 4px inset rgb(66, 24, 94);
+}
+
+#botaodesafio{
+    padding: 10px;
+    font-family: 'Courgette', cursive;
+    cursor: pointer;
+    background-color: rgb(66, 24, 94);
+    color: aliceblue;
+}
+#fase5{
+    color: rgb(39, 39, 39);
+}

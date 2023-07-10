@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Padyakke+Expanded+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+</head>
+
+<div class="Logo" id="logo">
+    <h1 id="projeto">Projeto:</h1> <h1 id="enigma">enigma</h1>
+    </div>
+ 
+<header id="header">
+    <nav>
+    <ul id="listaheader">
+        
+        <li><a href="apresentação.html" id="elementoslista1">Home </a></li>
+        <li><a href="regras.html" id="elementoslista2">Regras</a></li>
+        
+    </ul>
+    </nav>
+</header>
+
+<br>
+
+<div id="conteudo">
+
+<br>
+<h1>código morse</h1>
+
+<h1>Digite a senha:</h1>
+
+<input type="text" placeholder="senha" id="senha">
+<input type="submit" onclick="senha()" id="enviar">
+</div>
+
+
+<body>
+
+</body>
+<script>
+    window.alert('É a mesma senha do desafio anterior!')
+    function senha(){
+      var senha = document.getElementById('senha').value
+
+      if(senha == ".--- . ... ..- ..."){
+        location.href = "desafio04.html"
+      }
+      else{
+        window.alert('SENHA INCORRETA!')
+      }
+    }
+</script>
+</html>
